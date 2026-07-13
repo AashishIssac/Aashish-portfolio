@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import ashPortrait from "/media/ash-portrait.svg";
+const ashPortrait = `${import.meta.env.BASE_URL}media/ash-portrait.svg`;
 
 export default function Hero() {
   const textRef = useRef<HTMLDivElement>(null);

@@ -85,7 +85,7 @@ export default function Projects() {
             {/* Video – explicit width/height reserves layout to prevent CLS */}
             <video
               ref={setVideoEl}
-              src="/media/carpe-screen-record.webm"
+              src={`${import.meta.env.BASE_URL}media/carpe-screen-record.webm`}
               width="1280"
               height="720"
               preload="none"
