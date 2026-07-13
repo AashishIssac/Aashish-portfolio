@@ -96,17 +96,6 @@ export default function Projects() {
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-700"
             />
 
-            {/* Play icon overlay */}
-            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors z-10 flex items-center justify-center">
-              <svg
-                className="w-20 h-20 text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </div>
-
             {/* Gradient overlay so text remains readable */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none z-[5]" />
 
